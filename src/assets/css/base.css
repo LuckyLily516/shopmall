@@ -1,7 +1,10 @@
 @import "./normalize.css";
 
-/*:root -> 获取根元素html*/
+/*:root -> 也是伪类 获取根元素html*/
 :root {
+  /* css里定义变量的方式
+  *  使用变量font-size: var(--font-size)
+  */
   --color-text: #666;
   --color-high-text: #ff5777;
   --color-tint: #ff8198;
